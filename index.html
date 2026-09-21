@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jonathan | Data Automation & Analytics</title>
+    <title>Jonatan Rojas | Data Automation & Analytics</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnfonts.com" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,9 +15,12 @@
     <div class="container">
         <!-- Hero Section -->
         <header class="hero">
-            <img src="profile.jpg" alt="Jonatan" class="avatar-image">
+            <!-- Wrapped in a helper container to mimic the target look cleanly -->
+            <div class="avatar-wrapper">
+                <img src="profile.jpg" alt="Jonatan Rojas" class="avatar-image">
+            </div>
             <h1>Jonatan Rojas</h1>
-            <p>Data Automation & Analytics Expert | Turning messy data into smart dashboards.</p>
+            <p class="hero-subtitle">Data Automation & Analytics Expert | Turning messy data into smart dashboards.</p>
         </header>
 
         <!-- Core Services -->
@@ -48,12 +52,18 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
+       <!-- Contact Section -->
             <section class="contact-section">
+                <!-- Title stays outside, matching the top sections -->
                 <h2 class="section-title">Let's Work Together</h2>
-                <p class="contact-subtitle">Have a project in mind? Fill out my quick intake form to get started.</p>
-                <a href="https://forms.gle/DZzGWSLg5Mb2cGVT9" target="_blank" class="btn btn-primary">Start Your Project</a>
+                
+                <!-- Only the content gets boxed inside the clean card -->
+                <div class="contact-card">
+                    <p class="contact-subtitle">Have a project in mind? Fill out my quick intake form to get started.</p>
+                    <a href="https://forms.gle/DZzGWSLg5Mb2cGVT9" target="_blank" class="btn btn-primary">Start Your Project</a>
+                </div>
             </section>
+
 
         <!-- Footer -->
         <footer>
