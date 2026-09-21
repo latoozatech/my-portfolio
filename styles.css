@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Mona Sans';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 200 900;
+    src: url("https://cdn.jsdelivr.net/fontsource/fonts/mona-sans:vf@5.3.0/latin-wght-normal.woff2") format("woff2-variations");
+}
 /* ==========================================================================
    1. GLOBAL RESETS & SITE CANVAS (CEI Light Theme Backdrop)
    ========================================================================== */
@@ -8,7 +15,7 @@
 }
 
 body {
-    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Mona Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     background-color: #f4f6f9; 
     color: #334155;            
     line-height: 1.6;
@@ -26,11 +33,11 @@ body {
    2. TYPOGRAPHY & CORPORATE COLOR SCHEME
    ========================================================================== */
 .hero h1 {
-    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Mona Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 500;
     font-size: 3rem;
-    color: #192d47;            
-    letter-spacing: -0.02em;    
+    color: #2A4D69;            
+    letter-spacing: -0.05em;    
     margin: 0px 0px 10px 0px;
 }
 
@@ -46,8 +53,8 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: #c28135;            
-    font-size: 1.25rem;         
+    color: #CD913B;            
+    font-size: 2rem;         
     font-weight: 600;
     margin-top: 60px;
     margin-bottom: 35px;
@@ -73,7 +80,7 @@ body {
     overflow: hidden;          /* Keeps everything securely clipped inside */
     margin-bottom: 24px;
     box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.15);
-    border: 2px solid #192d47; 
+    border: 2px solid #2A4D69; 
     transition: border-color 0.4s ease; 
     /* Crucial: Keeps the gradient layer stacked correctly on top of the image */
     z-index: 1; 
@@ -81,7 +88,7 @@ body {
 
 /* 3. ADDED: Switches the container boundary line to match your gold headings on hover */
 .avatar-wrapper:hover {
-    border-color: #c28135;     /* Elegantly fades into your signature amber gold */
+    border-color: #CD913B;     /* Elegantly fades into your signature amber gold */
 }
 
 /* 4. RETAINED: Your bottom-up fade gradient overlay remains 100% active */
