@@ -8,10 +8,9 @@
 }
 
 body {
-    /* TARGET MATCH: Uses Mona Sans first, then falls back to Helvetica/Arial chains */
-    font-family: "Mona Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #f4f6f9; 
-    color: #334155;   /*Container description color*/         
+    color: #334155;            
     line-height: 1.6;
     padding: 60px 0;
 }
@@ -27,11 +26,11 @@ body {
    2. TYPOGRAPHY & CORPORATE COLOR SCHEME
    ========================================================================== */
 .hero h1 {
-    font-family: "Mona Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 3rem;
-    color: #0F355A;  
-    letter-spacing: -0.02em;
+    color: #192d47;            
+    letter-spacing: -0.02em;    
     margin: 0px 0px 10px 0px;
 }
 
