@@ -23,8 +23,8 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 1100px;
+    width: 92%;
+    max-width: 1350px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -37,7 +37,7 @@ body {
     font-weight: 500;
     font-size: 3rem;
     color: #2A4D69;            
-    letter-spacing: -0.05em;    
+    letter-spacing: -0.08em;    
     margin: 0px 0px 10px 0px;
 }
 
@@ -51,11 +51,11 @@ body {
 /* CEI Accent Golden Section Headers */
 .section-title {
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
+    
+    letter-spacing: -0.08em;
     color: #CD913B;            
-    font-size: 2rem;         
-    font-weight: 600;
+    font-size: 2.25rem;         
+    font-weight: 500;
     margin-top: 60px;
     margin-bottom: 35px;
 }
@@ -129,18 +129,19 @@ body {
    ========================================================================== */
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 24px;
-    margin-bottom: 80px;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 28px;
+    margin-bottom: 50px;
 }
 
 .service-card {
     background-color: #ffffff; 
     border: 1px solid #e2e8f0;   
     border-radius: 16px;       /* Matched rounded profile element shape */
-    padding: 32px;
+    padding: 30px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.01);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
 }
 
 .service-card:hover {
@@ -150,9 +151,11 @@ body {
 
 .service-card h3 {
     color: #1c395f;            /* Deep navy/slate header */
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 500;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
+    text-align: center;
+    letter-spacing: -0.05em;
 }
 
 .service-card h3 span {
@@ -177,6 +180,7 @@ body {
     font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 8px;
+    letter-spacing: -0.05em;
 }
 
 .youtube-banner p {
@@ -220,7 +224,7 @@ body {
 .contact-subtitle {
     margin-bottom: 24px;
     color: #475569;            /* Sharp corporate slate gray */
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     max-width: 100%;
 }
 
@@ -231,7 +235,7 @@ body {
     padding: 14px 36px;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.95rem;
+    font-size: 1rem;
     border-radius: 8px;
     width: auto;
     min-width: 240px;
